@@ -26,7 +26,7 @@ dome = (staz.mode(bigboy))
 newguy = []
 
 for w in range(len(l)):
-  if bigboy[w] == dome:
+  if bigboy[w] == 113:
     newguy.append(l[w])
 
 print(newguy)
